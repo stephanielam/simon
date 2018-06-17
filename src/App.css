@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  background: #3c3948;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  float:clear;
+}
+
+.App-header {
+  background-color: #33313c;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.App-title {
+  font-size: 60px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h2 {
+  color: white;
+}
+
+/*SCOREBOARD*/
+#scoreboard {
+  background: white;
+  color: black;
+  font-size: 30px;
+  width: 240px;
+  margin: 50px auto;
+  padding: 0px 4px;
+
+}
+
+/*MENU BUTTONS*/
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 50px;
+  border: 3px solid white;
+  color: white;
+  background: transparent;
+  box-shadow: 3px 3px 3px black;
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px black;
+}
+
+/*GAME AREA*/
+table {
+  margin: 0 auto;
+}
+
+.colour-button {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 7px auto;
+  box-shadow: 7px 7px 7px black;
+  opacity: 0.77;
+}
+
+.colour-button:hover {
+  box-shadow: 3px 3px 3px black;
+  height: 195px;
+  width: 195px;
+  opacity: 0.70;
+}
+
+.lit {
+  opacity: 1;
+}
+
+
+#red {
+  background: #ff5a5a;
+  border-radius: 100% 0 0 0;
+}
+
+#yellow {
+  background: yellow;
+  border-radius: 0 0 100% 0;
+}
+
+#green {
+  background: #8bc34a;
+  border-radius: 0 100% 0 0;
+}
+
+#blue {
+  background: #00bcd4;
+  border-radius: 0 0 0 100%;
+}
+
